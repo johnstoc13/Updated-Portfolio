@@ -51,9 +51,7 @@ h3 {
     text-decoration: underline;
 }
 
-a.text-white:hover {
+a.text-white:hover,
+a.text-white-50:hover {
     color: #faa161!important;
 }
-/* li {
-    color: white;
-} */
