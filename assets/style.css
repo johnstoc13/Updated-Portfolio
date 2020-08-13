@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+/* body {
+    background: url('./images/sky.jpg') center center fixed;
+    background-size: cover;
+} */
+
+.aboutimg {
+    max-width: 150px;
+}
+
+.portfolio-padding {
+    position: absolute;
+    bottom: 5%;
+}
+
+.footer-font {
+    font-size: 12px;
+}
+
+.footer-margin {
+    height: 48px;
+}
+
+.bg-blue {
+    background-color: #2d73ac;
+}
+
+.bg-orange {
+    background-color: #faa161;
+}
