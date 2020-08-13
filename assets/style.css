@@ -10,7 +10,8 @@
 } */
 
 .aboutimg {
-    max-width: 150px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .portfolio-padding {
@@ -19,7 +20,7 @@
 }
 
 .footer-font {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .footer-margin {
@@ -33,3 +34,26 @@
 .bg-orange {
     background-color: #faa161;
 }
+
+.blue {
+    color: #2d73ac!important;
+}
+
+.orange {
+    color: #faa161;
+}
+
+span .blue:hover {
+    color: #faa161!important;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+a.text-white:hover {
+    color: #faa161!important;
+}
+/* li {
+    color: white;
+} */
