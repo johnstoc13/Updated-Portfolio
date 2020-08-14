@@ -19,20 +19,8 @@
     bottom: 5%;
 }
 
-.footer-font {
-    font-size: 13px;
-}
-
-.footer-margin {
-    height: 48px;
-}
-
 .bg-blue {
     background-color: #2d73ac;
-}
-
-.bg-orange {
-    background-color: #faa161;
 }
 
 .blue {
@@ -43,10 +31,6 @@
     color: #faa161;
 }
 
-span .blue:hover {
-    color: #faa161!important;
-}
-
 h3 {
     text-decoration: underline;
 }
@@ -54,4 +38,21 @@ h3 {
 a.text-white:hover,
 a.text-white-50:hover {
     color: #faa161!important;
+}
+
+.footer-font {
+    font-size: 13px;
+}
+
+.footer-margin {
+    height: 48px;
+}
+
+span .blue:hover {
+    color: #faa161!important;
+}
+
+div .btn:hover {
+    background-color: #faa161;
+    color: black!important;
 }
