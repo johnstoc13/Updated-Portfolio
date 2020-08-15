@@ -4,10 +4,9 @@
     font-family: 'Lato', sans-serif;
 }
 
-/* body {
-    background: url('./images/sky.jpg') center center fixed;
-    background-size: cover;
-} */
+.contact-bg {
+    background-color: #343a40;
+}
 
 .aboutimg {
     max-width: 300px;
@@ -37,6 +36,10 @@ h3 {
 
 a.text-white:hover,
 a.text-white-50:hover {
+    color: #faa161!important;
+}
+
+i.text-white {
     color: #faa161!important;
 }
 

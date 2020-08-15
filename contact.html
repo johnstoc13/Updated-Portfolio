@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/style.css">
     <script src="https://kit.fontawesome.com/87498dd281.js" crossorigin="anonymous"></script>
     <title>Chase Johnston's Portfolio</title>
 
 </head>
 
-<body>
+<body class="contact-bg">
 
     <!-- Navbar -->
     <nav class="container-fluid bg-blue border-bottom border-dark">
@@ -31,7 +31,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white px-2 mx-2" href="contact.html">Contact<span
-                            class="sr-only">(current)</span></a>
+                                class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -39,30 +39,97 @@
     </nav>
 
     <!-- Main Content -->
-    <section class="container bg-white my-4 px-4 pb-5 border border-dark w-md-75">
-        <div class="row ml-0 pt-3">
-            <h4>Contact</h4>
+    <section class="container-fluid bg-dark">
+        <div class="row py-3 py-md-4">
+            <div class="col">
+                <h2 class="text-white text-center mb-0">CONTACT</h2>
+            </div>
         </div>
-
-        <hr class="border border-dark">
-
-        <!-- Form Starts -->
-        <form>
-            <div class="form-group">
-                <label>Name</label>
-                <input type="text" class="form-control" placeholder="John Smith">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <!-- Message and Icons Column -->
+            <div class="col-sm-12 col-md-5">
+                <div class="row px-3">
+                    <p class="text-white">Send me a message by filling out the form to the right, or ontact me by email
+                        or phone using the info below. I usually respond within 24 hours.</p>
+                </div>
+                <div class="row py-5">
+                    <div class="col-3 text-center">
+                        <i class="fas fa-mobile-alt fa-3x text-white"></i>
+                    </div>
+                    <div class="col-9 pt-1">
+                        <p class="text-white pt-2 pl-3 mb-0">(603)-703-4749</p>
+                    </div>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-3 text-center">
+                        <i class="fas fa-envelope fa-3x text-white"></i>
+                    </div>
+                    <div class="col-9 pt-2">
+                        <a href="mailto:chasej@live.com" target="_blank" class="text-white pl-3">chasej@live.com</a>
+                    </div>
+                </div>
+                <div class="row pb-5">
+                    <div class="col-3 text-center">
+                        <i class="fas fa-map-marker-alt fa-3x text-white"></i>
+                    </div>
+                    <div class="col-9 pt-1">
+                        <p class="text-white pt-2 pl-3">Brookline, NH</p>
+                    </div>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+            <!-- Form Column -->
+            <div class="col-sm-12 col-md-5">
+                <div class="input-group mb-3 w-75">
+                    <div class="input-group-prepend">
+                        <i class="input-group-text far fa-user"></i>
+                    </div>
+                    <input type="text" class="form-control rounded-right" placeholder="Your Name" onkeypress="return event.charCode >= 65 && event.charCode <= 90 || event.charCode >= 97 && event.charCode <= 122 || event.charCode == 32" required>
+                    <div class="invalid-feedback">
+                        Please enter your name.
+                    </div>
+                </div>
+                <div class="input-group mb-3 w-75">
+                    <div class="input-group-prepend">
+                        <i class="input-group-text fas fa-phone-alt"></i>
+                    </div>
+                    <input type="text" class="form-control rounded-right" placeholder="Your Phone Number" onkeypress="return event.charCode >= 48 && event.charCode <= 57 || event.charCode == 45 || event.charCode == 40 || event.charCode == 41" required>
+                    <div class="invalid-feedback">
+                        Please enter your phone number.
+                    </div>
+                </div>
+                <div class="input-group mb-3 w-75">
+                    <div class="input-group-prepend">
+                        <i class="input-group-text fas fa-envelope"></i>
+                    </div>
+                    <input type="email" class="form-control rounded-right" placeholder="Your Email" required>
+                    <div class="invalid-feedback">
+                        Please enter a valid email address.
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <i class="input-group-text fas fa-pencil-alt"></i>
+                    </div>
+                    <textarea class="form-control rounded-right" rows="10" placeholder="Your Message"
+                        required></textarea>
+                    <div class="invalid-feedback">
+                        Please enter a message.
+                    </div>
+                </div>
+                <!-- <div class="input-group mb-3 w-75">
+                    <div class="input-group-prepend">
+                        <i class="input-group-text fas fa-lock"></i>
+                    </div>
+                    <input type="text" class="form-control rounded-right" placeholder="Enter Captcha" required>
+                    <div class="invalid-feedback">
+                        Please enter valid captcha.
+                    </div>
+                </div> -->
+                <button type="submit" class="btn bg-blue text-white mb-3">Submit</button>
             </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-
+            <div class="col-md-1"></div>
+        </div>
     </section>
 
     <!-- Footer -->
