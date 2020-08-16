@@ -59,3 +59,12 @@ div .btn:hover {
     background-color: #faa161;
     color: black!important;
 }
+
+#nameModal,
+#phoneModal,
+#emailModal,
+#messageModal,
+#alertModal,
+#successModal {
+    display: none;
+}
