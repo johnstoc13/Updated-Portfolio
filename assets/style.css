@@ -60,10 +60,7 @@ div .btn:hover {
     color: black!important;
 }
 
-#nameModal,
 #phoneModal,
-#emailModal,
-#messageModal,
 #alertModal,
 #successModal {
     display: none;
